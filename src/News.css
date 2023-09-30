@@ -10,11 +10,26 @@
 }
 
 .title{
-    color: antiquewhite;
+    color: #F3EAD3;
+}
+.title:hover{
+    color: #fff;
+}
+
+.title-text{
+    color: #fff;
+}
+.title-text:hover{
+    color:#F3EAD3;
 }
 
 .subTitle{
     margin-bottom: 0%;
+    color: #FFFAF0;
+}
+
+.date{
+    color: #FDF5E6;
 }
 
 .image{
@@ -26,19 +41,5 @@
 
 .description{
     text-align: justify;
-    color: aliceblue;    
-}
-
-
-
-
-
-.title-text{
-    color: azure;
-}
-
-
-
-.subTitle{
-    color:bisque;
+    color: #F5F5DC;    
 }

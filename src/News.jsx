@@ -53,7 +53,7 @@ const News = () => {
               </div>
 
               <Card.Text className="subTitle">{article.author} - {article.source.name}</Card.Text>
-              <Card.Text className="text-muted date">{formatDate(article.publishedAt)}</Card.Text> 
+              <Card.Text className="date">{formatDate(article.publishedAt)}</Card.Text> 
 
               <Card.Body className="cardBody">
                 <Card.Img className="float-start imgshadow image" variant="top" src={article.urlToImage}/>                
