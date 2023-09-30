@@ -1,0 +1,44 @@
+.card{
+    background-color: #051922;
+    padding:20px;
+    height:360px;    
+}
+
+.titlecard{
+    text-wrap:pretty;
+    height: 80px;
+}
+
+.title{
+    color: antiquewhite;
+}
+
+.subTitle{
+    margin-bottom: 0%;
+}
+
+.image{
+    height: 90px;
+    width: 150px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+
+.description{
+    text-align: justify;
+    color: aliceblue;    
+}
+
+
+
+
+
+.title-text{
+    color: azure;
+}
+
+
+
+.subTitle{
+    color:bisque;
+}
