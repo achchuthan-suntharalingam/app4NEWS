@@ -1,7 +1,11 @@
 .card{
-    background-color: #051922;
+    background-color: #082938;    
     padding:20px;
     height:360px;    
+}
+
+.card:hover{
+    background-color: #051922;
 }
 
 .titlecard{
@@ -10,7 +14,8 @@
 }
 
 .title{
-    color: #F3EAD3;
+    color:#FFDB58
+    ;
 }
 .title:hover{
     color: #fff;
@@ -20,16 +25,16 @@
     color: #fff;
 }
 .title-text:hover{
-    color:#F3EAD3;
+    color:#FFDB58;
 }
 
 .subTitle{
     margin-bottom: 0%;
-    color: #FFFAF0;
+    color: #cdd4d7;
 }
 
 .date{
-    color: #FDF5E6;
+    color: #b4bec3;
 }
 
 .image{
@@ -41,5 +46,5 @@
 
 .description{
     text-align: justify;
-    color: #F5F5DC;    
+    color: #e6e9eb;    
 }
