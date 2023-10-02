@@ -9,6 +9,8 @@ function formatDate(publishedAt) {
   return date.toLocaleDateString('en-GB',options);
 }
 
+
+
 const News = () => {
   const [news, setNews] = useState([]);
 
@@ -18,10 +20,14 @@ const News = () => {
       
      const getArticles = async() => {
 
-        try{
-            const response = await axios.get(API_URL)
-            setNews(response.data.articles)
-            console.log(response)
+        try {
+          const response = await axios.get(API_URL);
+          const sortedNews = response.data.articles.sort((a, b) => (
+            new Date(b.publishedAt) - new Date(a.publishedAt)
+          ));
+
+          console.log(sortedNews);
+          setNews(sortedNews);
         }
         catch (error){
             console.error("Eror in Fetching Data");
@@ -56,7 +62,7 @@ const News = () => {
               <Card.Text className="date">{formatDate(article.publishedAt)}</Card.Text> 
 
               <Card.Body className="cardBody">
-                <Card.Img className="float-start image" variant="top" src={article.urlToImage}/>                
+                <Card.Img className="float-start image" variant="top" src={article.urlToImage} alt='{article.urlToImage}'/>                
                 <Card.Text className="description">{article.description}</Card.Text>  
               </Card.Body>
 
