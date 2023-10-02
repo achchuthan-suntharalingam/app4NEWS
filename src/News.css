@@ -1,7 +1,9 @@
 .card{
     background-color: #082938;    
     padding:30px;
-    height:360px;    
+    height:360px; 
+    overflow: hidden; 
+    
 }
 
 .card:hover{
@@ -10,8 +12,6 @@
 
 .titlecard{
     text-wrap:pretty;
-    /* height: 80px; */
-    /* display:contents; */
 }
 
 .title{
@@ -43,10 +43,9 @@
 }
 
 .image{
-    height: 150px;
-    width: 260px;
+    height:auto;
+    width: 40%;
     padding-right: 20px;
-    padding-bottom: px;
 }
 
 .description{
