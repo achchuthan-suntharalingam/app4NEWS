@@ -39,7 +39,7 @@ const News = () => {
       <div className="row">
 
         {news.map((article, index) => (
-          <div className="col-md-4 mb-4" key={index}>
+          <div className="col-md-6 mb-4" key={index}>
 
             <Card className="card">
 
@@ -56,7 +56,7 @@ const News = () => {
               <Card.Text className="date">{formatDate(article.publishedAt)}</Card.Text> 
 
               <Card.Body className="cardBody">
-                <Card.Img className="float-start imgshadow image" variant="top" src={article.urlToImage}/>                
+                <Card.Img className="float-start image" variant="top" src={article.urlToImage}/>                
                 <Card.Text className="description">{article.description}</Card.Text>  
               </Card.Body>
 

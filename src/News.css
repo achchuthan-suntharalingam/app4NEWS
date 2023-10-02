@@ -1,6 +1,6 @@
 .card{
     background-color: #082938;    
-    padding:20px;
+    padding:30px;
     height:360px;    
 }
 
@@ -10,7 +10,8 @@
 
 .titlecard{
     text-wrap:pretty;
-    height: 80px;
+    /* height: 80px; */
+    /* display:contents; */
 }
 
 .title{
@@ -37,14 +38,18 @@
     color: #b4bec3;
 }
 
+.cardBody{
+    text-wrap:pretty;
+}
+
 .image{
-    height: 90px;
-    width: 150px;
-    padding-bottom: 5px;
-    padding-right: 10px;
+    height: 150px;
+    width: 260px;
+    padding-right: 20px;
+    padding-bottom: px;
 }
 
 .description{
     text-align: justify;
-    color: #e6e9eb;    
+    color: #e6e9eb;
 }
